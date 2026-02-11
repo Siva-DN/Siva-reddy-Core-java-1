@@ -14,20 +14,20 @@ public class Item {
 	}
 
 	boolean isFree() {
-		int temp = a;
-		int r = 0;
-		int rev = 0;
-
-		while (a != 0) {
-			r = a % 10;
-			rev = rev * 10 + r;
-			a = a / 10;
+		int l=0;
+		int r=code.length()-1;
+		
+		char ch[] =code.toCharArray();
+		
+		while(l<=r) {
+			char temp=ch[l];
+			ch[l]=ch[r];
+			ch[r]=temp;
+			
+			l++;
+			r--;
 		}
-
-		if (temp == rev) {
-			return true;
-		} else {
-			return false;
-		}
+		
+		return new String(ch)==code;
 	}
 }
