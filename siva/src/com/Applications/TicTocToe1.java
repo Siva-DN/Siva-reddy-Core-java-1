@@ -93,7 +93,7 @@ public class TicTocToe1 {
 //	}
 //
 //	public static boolean iswin() {
-////		for rows
+//		for rows
 //
 //		for (int i = 0; i <= 2; i++) {
 //

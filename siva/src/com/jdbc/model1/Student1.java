@@ -2,6 +2,12 @@ package com.jdbc.model1;
 
 public class Student1 {
 	
+	
+	private int sno;
+	private String sname;
+	private int marks;
+	private long phone;
+	
 	public int getSno() {
 		return sno;
 	}
@@ -32,10 +38,7 @@ public class Student1 {
 		this.phone = phone;
 	}
 
-	private int sno;
-	private String sname;
-	private int marks;
-	private long phone;
+	
 	
 	
 	

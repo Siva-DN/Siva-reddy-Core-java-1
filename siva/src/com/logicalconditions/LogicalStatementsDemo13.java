@@ -26,7 +26,7 @@ public class LogicalStatementsDemo13 {
 		case 1 -> {
 			System.out.println("check balance:");
 			System.out.println("Enter your pin:");
-			int pin=sc.nextInt();
+			int pin = sc.nextInt();
 			System.out.println("YOUR CURRENT BALANCE IS:" + balance);
 		}
 		case 2 -> {
@@ -51,7 +51,7 @@ public class LogicalStatementsDemo13 {
 		case 4 -> {
 			System.out.println("THANK YOU..!! FOR VISITING THE ATM");
 		}
-		default -> System.out.println("not in option");
+		default -> System.out.println("INVALID OPTION !!!");
 		}
 		sc.close();
 	}

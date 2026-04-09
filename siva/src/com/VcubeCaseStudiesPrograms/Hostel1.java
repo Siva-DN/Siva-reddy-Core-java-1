@@ -12,6 +12,17 @@ public class Hostel1 {
 		System.out.println("RoomNumber:" + h1.getRoomNumber());
 		System.out.println("GuestName:" + h1.getGuestName());
 		System.out.println("RoomType:" + h1.getRoomType());
+		
+		
+		OppsHotelBooking1 h2 = new OppsHotelBooking1();
+		h2.setRoomNumber(102);
+		h2.setGuestName("siva");
+		h2.setRoomType("standard");
+		
+		
+		System.out.println("RoomNumber:" + h2.getRoomNumber());
+		System.out.println("GuestName:" + h2.getGuestName());
+		System.out.println("RoomType:" + h2.getRoomType());
 	}
 
 }

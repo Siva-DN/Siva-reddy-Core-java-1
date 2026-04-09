@@ -11,7 +11,7 @@ public class IsomorphicStrings1 {
 			char ch=s1.charAt(i);
 			char chh=s2.charAt(i);
 			
-			if(s1.indexOf(ch)!=s2.indexOf(chh) || ) {
+//			if(s1.indexOf(ch)!=s2.indexOf(chh) || ) {
 				
 				
 			}
@@ -26,4 +26,4 @@ public class IsomorphicStrings1 {
 		
 	}
 
-}
+

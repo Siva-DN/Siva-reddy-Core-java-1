@@ -74,7 +74,7 @@ public class OppsHotelBooking1 {
 		this.isBooked = isBooked;
 	}
 
-	public static void main(String[] args) {
-
-	}
+//	public static void main(String[] args) {
+//
+//	}
 }
